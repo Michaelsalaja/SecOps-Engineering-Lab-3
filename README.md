@@ -1,6 +1,6 @@
 # Connect Linux Hosts To Microsoft Sentinel Using Data Connectors
 
-In my most previous lab, I created a Windows Virtual Machine in Azure and connected an Azure Windows Virtual Machines to Microsoft Sentinel workspace on Microsoft Defender XDR. This lab switches to connecting Linux hosts to Microsoft Sentinel using the Common Event Format (CEF) via Azure Monito Agent (AMA) and Syslog via Syslog via Legacy Agent data connectors. I will also create a Data Collection Rule (DCR) to collect the events while Azure Arc was pre-installed on this Linux host as required for creating a DCR.
+In my most previous lab, I created a Windows Virtual Machine in Azure and connected an Azure Windows Virtual Machines to Microsoft Sentinel workspace on Microsoft Defender XDR. This lab switches to connecting Linux hosts to Microsoft Sentinel using the Common Event Format (CEF) via Azure Monitor Agent (AMA) and Syslog via Syslog via Legacy Agent data connectors. I will also create a Data Collection Rule (DCR) to collect the events while Azure Arc was pre-installed on this Linux host as required for creating a DCR.
 
 The diagram below depicts the architectural design of what my lab wants to operationalize, following three tasks.
 

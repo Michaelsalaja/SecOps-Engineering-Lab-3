@@ -343,7 +343,7 @@ In this lab, I executed the following tasks:
 
 * Configured the severity for the Syslog connector to Level 4 (Log-Warning) to help us define the priority or severity of log messages.
 
-* The syslog connection did not work perfectly, and it forced to troubleshoot a couple of errors that occurred during the configuration. However, I was able to understand how to navigate through the Microsoft Defender portal and connect configure Syslog and Common Event Format (CEF) data connectors and Microsoft Sentinel. This includes setting up the necessary infrastructure and ensuring that logs are correctly being ingested into Sentinels such as
+* The syslog connection did not work perfectly, and it forced to troubleshoot a couple of errors that occurred during the configuration. However, I was able to understand how to navigate through the Microsoft Defender portal and configure Syslog and Common Event Format (CEF) data connectors and Microsoft Sentinel. This includes setting up the necessary infrastructure and ensuring that logs are correctly being ingested into Sentinels such as
 
     * CIS log forwarder
 
